@@ -1,0 +1,92 @@
+/*Font*/
+body {
+	font-family: "Comic Sans MS", sans-serif;
+}
+
+/*Settings defautls for divs*/
+div {
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+/*Defaults for the three gray boxes*/
+.col-lg-4 {
+	border: 1px solid black;
+	box-sizing: border-box;
+	background-color: lightGrey;
+	float: left;
+	margin: 2% 0% 1% 0%;
+}
+
+/*Formatting for the text in the gray boxes*/
+.content {
+	clear: both;
+	margin: 45px 10px 10px 10px;
+}
+
+/*Formatting for the container, overwriting border*/
+.row {
+	border: none;
+	width: 100%;
+	padding: auto;
+}
+
+/*Defaults for the three colored title boxes*/
+#chicken, #beef, #sushi {
+	width: 100px;
+	position: relative;
+	top: right;
+	right: top;
+	float: right;
+	width: 200px;
+	text-align: center;
+	color: white;
+	padding: 2px;
+}
+
+/*Individual colors for the boxes*/
+#chicken {
+	background-color: red;
+}
+
+#beef {
+	background-color: blue;
+}
+
+#sushi {
+	background-color: green;
+}
+
+/*Centering the heading*/
+h1 {
+	text-align: center;
+}
+
+/*Centering the titles*/
+h2 {
+	margin: auto;
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 9911199px) {
+	.col-md-6 {
+		width: 49%;
+	}
+
+	.col-md-12 {
+		width: 100%;
+		margin: auto;
+	}
+
+	#chi {
+		margin-right: 2%;
+	}
+}
+/*Desktop*/
+@media (min-width: 992px) {
+	.col-lg-4, #chi.col-lg-4 {
+		width: 30%;
+		margin: 1% 0% 1% 2.5%;
+	}
+}
+/*Anything else is mobile*/
