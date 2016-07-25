@@ -32,6 +32,7 @@ ul {
 li {
   color: #88F;
   border-bottom: 1px #66D solid;
+  padding: 10px;
 }
 li:hover {
   background-color: #EEE;
